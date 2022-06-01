@@ -10,26 +10,7 @@ Follow these directions to get up-and-running with the Chess.com API wrapper.
 ## Add dependencies to Maven/Gradle
 To get started, add `chesscom-pubapi-wrapper` to your project's dependencies.
 
-### Maven
-Add the following dependency to the dependencies section of your project's `pom.xml` file:
-```xml
-<dependencies>
-    <!-- Other project dependencies -->
-    <dependency>
-        <groupId>io.github.sornerol</groupId>
-        <artifactId>chesscom-pubapi-wrapper</artifactId>
-        <version>1.0.0</version>
-    </dependency>
-</dependencies
-```
-### Gradle
-Add the following dependency to the dependencies section of your project's `build.gradle` file:
-```groovy
-dependencies {
-    // other project dependencies...
-    compile 'io.github.sornerol:chesscom-pubapi-wrapper:1.0.0'
-}
-```
+### Sorry but mine is just a fork from main repo, which only has .jar file
 
 ## Create a new client
 The API wrapper consists of different clients, which correspond to different API endpoints within Chess.com's PubAPI:
