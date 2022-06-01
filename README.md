@@ -12,7 +12,7 @@ To get started, add `chesscom-pubapi-wrapper` to your project's dependencies.
 
 ### Maven
 Add the following dependency to the dependencies section of your project's `pom.xml` file:
-```
+```xml
 <dependencies>
     <!-- Other project dependencies -->
     <dependency>
@@ -24,7 +24,7 @@ Add the following dependency to the dependencies section of your project's `pom.
 ```
 ### Gradle
 Add the following dependency to the dependencies section of your project's `build.gradle` file:
-```
+```groovy
 dependencies {
     // other project dependencies...
     compile 'io.github.sornerol:chesscom-pubapi-wrapper:1.0.0'

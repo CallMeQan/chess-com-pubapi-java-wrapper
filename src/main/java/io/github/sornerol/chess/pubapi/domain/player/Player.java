@@ -109,4 +109,10 @@ public class Player {
      */
     @JsonProperty("fide")
     private Integer fideRating;
+
+    /**
+     * Is player got verified?
+     */
+    @JsonProperty("verified")
+    private boolean verified;
 }
