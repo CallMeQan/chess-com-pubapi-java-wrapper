@@ -97,4 +97,22 @@ public class LeaderboardEntry {
      */
     @JsonProperty("flair_code")
     private String flairCode;
+
+    /**
+     * Total player's win
+     */
+    @JsonProperty("win_count")
+    private Integer wins;
+
+    /**
+     * Total player's loss
+     */
+    @JsonProperty("loss_count")
+    private Integer losses;
+
+    /**
+     * Total player's draw
+     */
+    @JsonProperty("draw_count")
+    private Integer draws;
 }

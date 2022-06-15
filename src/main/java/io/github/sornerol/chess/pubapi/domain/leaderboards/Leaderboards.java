@@ -79,4 +79,16 @@ public class Leaderboards {
      */
     @JsonProperty("tactics")
     private List<LeaderboardEntry> tacticsLeaderboard;
+
+    /**
+     * Rush leaderboard
+     */
+    @JsonProperty("rush")
+    private List<LeaderboardEntry> rushLeaderboard;
+
+    /**
+     * Battle leaderboard
+     */
+    @JsonProperty("battle")
+    private List<LeaderboardEntry> battleLeaderboard;
 }

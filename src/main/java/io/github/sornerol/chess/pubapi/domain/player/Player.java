@@ -40,6 +40,7 @@ public class Player {
 
     /**
      * Player's FIDE or national federation title
+     * Return null if none
      */
     @JsonProperty("title")
     private Title title;
